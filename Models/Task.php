@@ -10,6 +10,8 @@ class Task extends Model
     // 新規作成に使用するメソッド
     public function create($data)
     {
+
+        
         // DBに保存
         // このクラスのインスタンスの
         // db_managerプロパティの
